@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Webinar page by Prachi</title>
+  </head>
+  <body>
+    <div id="mainContainer">
+      <div id="topContainer">
+        <h1 class="main-Heading">
+          <br /> <br /><mark> Webinar </mark>
+        </h1>
+      </div>
+      <div id="bar">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          &#x25B6;
+          <li><a href="#event">Event</a></li>
+          &#x25B6;
+          <li><a href="#topic">Discover design thinking</a></li>
+        </ul>
+      </div>
+      <div id="bottomContainer">
+        <div id="upperBox">
+          <h3>DATE AND TIME</h3>
+          <p>Wednesday, May11<sup>th</sup>, 2020-03:00 pm-04:30pm</p> <br />
+          <h3>VENUE / ADDRESS</h3>
+          <p>Online</p>
+        </div>
+
+        <h2>Discover Design Thinking</h2>
+        <br />
+        <p>
+          Modern organizations have brought about sensational progress for
+          humanity in less than two centuries the blink of an eye in the overall
+          timeline of our species. This masterclass brings in a guided mastery
+          to invent a more powerful, more soulful, more meaningful way to work
+          together, by enabling us to
+        </p>
+        <br />
+        <p>
+          change our beliefs. There are several processes out there that help
+          leaders solve their organizational challenges, menage change, grow and
+          innovate. The core principles of design thinking and leadership will
+          help the organization to solve business challenges and build a culture
+          for innovation organization-wide deployment
+        </p>
+        <br />
+       
+        <div id="lowerBox">
+           <h3>Workshop Agenda</h3>
+          <h3>REGESTRATION</h3>
+          <br />
+          <div id="innerBox">
+            <p>prior registeration is manditory</p>
+            <a
+              id="inBox"
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              class="clickable"
+              >CLICK HERE</a>
+
+              <script src="./script.js"></script>
+
+            <p>to register.</p>
+          </div>
+        </div>
+      </div>
+      <h3 class="wa ">Workshop Agenda</h3>
+      <div id="box">
+          <ul>&#x25B6; Introducation to & Design Thinking with Case studies</ul>
+          <ul>&#x25B6; Innovation Toy Case & Function Diagram Developement</ul>
+          <ul>&#x25B6; Glimps of Functional innovation Tools</ul>
+          <br />
+          <h3 class="speaker">SPEAKER</h3> <br />
+
+          <div id="imgBox">
+            <br /> <br /> <br /> <br /> <br /> <br />  <b> image </b>          
+          </div>
+          
+          <div id="textBox"> 
+          <br /> <br /> <br />
+            <b>LOKESH VENKATASWAMY</b> <br /> ceo, <br /> Innomantra Consulting Private Limited
+          </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+#mainContainer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#topContainer {
+  background-color: blue;
+  position: top;
+  top: 0%;
+  left: 0%;
+  height: 15rem;
+  width: 100%;
+}
+
+.main-Heading {
+  color: white !important;
+  text-align: center;
+}
+
+#bottomContainer {
+  background-color: white;
+  padding: 1%;
+  position: bottom;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  margin: 2%;
+  width: 60%;
+}
+
+#bar {
+  margin: 0%;
+  padding: 1%;
+  background-color: cyan;
+  font-family: Fantasy;
+}
+
+#bar a {
+  margin: 0.5rem 0.75rem;
+}
+
+li {
+  display: inline-block;
+  padding: 0%;
+}
+
+#upperBox {
+  text-align: center;
+  position: absolute;
+  width: 20%;
+  padding: 2%;
+  background-color: lightgray;
+  border-radius: 4px;
+  right: 1%;
+}
+
+#lowerBox {
+  text-align: center;
+  position: absolute;
+  width: 20%;
+  padding: 2%;
+  margin: auto;
+  background-color: lightgray;
+  border-radius: 4px;
+  right: 1%;
+}
+
+#innerBox {
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 4%;
+  margin: auto;
+  background-color: yellow;
+  right: 1%;
+}
+
+#inBox {
+  color: #fff;
+  text-align: center;
+  width: 50%;
+  height: 10;
+  padding: 4%;
+  margin: auto;
+  background-color: red;
+  right: 1%;
+}
+
+.clickable {
+  cursor: pointer;
+  display: block;
+  margin: 1rem auto !important;
+} 
+
+.wa {
+ margin: 2%;
+}
+
+#box {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  position: absolute;
+  margin: 2%;
+  padding: 1%;
+  width: 60%;
+  height: 100%;
+}
+
+.speaker {
+  color: red;
+}
+
+#imgBox {
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  position: left;
+  width: 30%;
+  height: 50%;
+
+}
+
+#textBox {
+  background-color: gray;
+  text-align: center;
+  color: #fff;
+  position: left;
+  width: 30%;
+  height: 30%;
+}
+
+const temp = document.querySelector(".clickable");
+
+temp.addEventListener("click", () => {
+  alert("Working");
+});
